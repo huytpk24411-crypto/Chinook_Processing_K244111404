@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-10-23T11:25:16.089999+00:00",
+  "python_tests": {
+    "passed": 45,
+    "total": 45,
+    "seconds": 15.313,
+    "exit_code": 0,
+    "note": "Qt garbage collector ResourceWarning at shutdown; no test failure"
+  },
+  "pip_check": "passed",
+  "frontend_static": "passed",
+  "client_live_http": "passed, including delayed search/detail regressions",
+  "browser_observed": [
+    "Chrome overview at 720 px window",
+    "Chrome overview at 1440 px window"
+  ],
+  "browser_not_verified": [
+    "PNG download",
+    "model file picker",
+    "all pages and display scaling"
+  ],
+  "server_preview": "http://127.0.0.1:8766/"
+}

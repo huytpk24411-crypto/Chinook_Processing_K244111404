@@ -1,0 +1,14 @@
+{
+  "platform": "windows",
+  "source": "live MySQL",
+  "checks": [
+    "Live database load and shared filters completed through Qt worker signals",
+    "Training button completed on real data without blocking event loop",
+    "Total 3-month forecast rendered",
+    "Track search, ID/name and forecast rendered; old total result cleared",
+    "Album forecast rendered",
+    "Live English switch preserved forecast and updated labels",
+    "Month filter change cleared data, model and forecast"
+  ],
+  "status": "passed"
+}

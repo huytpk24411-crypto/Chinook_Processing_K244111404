@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "UI model load with live snapshot succeeded",
+    "UI CSV export preserved values",
+    "UI PNG export created a real rendered chart",
+    "UI model save wrote metadata and estimator state",
+    "English switch and 1100x720 logical-pixel layout rendered"
+  ]
+}

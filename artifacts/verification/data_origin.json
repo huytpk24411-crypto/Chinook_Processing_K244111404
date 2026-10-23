@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-10-23T11:51:10.179054+00:00",
+  "status": "passed",
+  "source": "localhost:3306/chinook",
+  "server": {
+    "db": "chinook",
+    "version": "8.0.46",
+    "port": 3306
+  },
+  "table_counts": {
+    "album": 347,
+    "artist": 275,
+    "customer": 59,
+    "employee": 8,
+    "genre": 25,
+    "invoice": 412,
+    "invoiceline": 2240,
+    "mediatype": 5,
+    "playlist": 18,
+    "playlisttrack": 8715,
+    "track": 3503
+  },
+  "raw_invoice_revenue": 2328.6,
+  "raw_line_revenue": 2328.6,
+  "date_min": "2009-01-01 00:00:00",
+  "date_max": "2013-12-22 00:00:00",
+  "filtered": {
+    "start": "2009-02-01",
+    "end": "2013-11-01",
+    "months": 58,
+    "revenue": 2254.3399999999997
+  },
+  "max_monthly_difference": 2.1316282072803006e-14,
+  "checks": [
+    "Independent SQL matches service for every month and every track/album",
+    "HTTP history matches SQL month by month",
+    "HTTP CSV catalog matches SQL totals for every ID, including never sold",
+    "Invoice totals queried separately from detail joins; no multiplied revenue"
+  ],
+  "source_read_at": "2026-10-23T11:49:48.064012+00:00"
+}

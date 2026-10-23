@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-23T11:51:29.400270+00:00",
+  "source": "live MySQL via localhost HTTP",
+  "checks": [
+    "Static allowlist, same-origin POST and password redaction passed",
+    "Overview and monthly reconciliation use live MySQL revenue",
+    "HTTP training job and held-out evaluation passed on live data",
+    "All 27 scope/method/horizon combinations and request ownership passed",
+    "Never-sold track selection, honest zero allocation and CSV export passed",
+    "Model JSON download/upload and compatibility validation passed",
+    "Reload reads a fresh SQL snapshot and preserves the applied filter range",
+    "Filter changes clear forecasts, reject stale revisions and reload only matching models"
+  ],
+  "history": {
+    "start": "2009-02",
+    "end": "2013-11",
+    "revenue": 2254.3399999999997
+  },
+  "catalog": {
+    "track": 3503,
+    "album": 347
+  },
+  "browser_qa": "Separate manual/Computer Use verification; this script checks HTTP, not browser rendering."
+}

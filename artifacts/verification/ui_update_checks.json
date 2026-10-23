@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-10-23T12:00:12.031389+00:00",
+  "python_tests": {
+    "passed": 49,
+    "total": 49,
+    "seconds": 17.411,
+    "exit_code": 0
+  },
+  "live_mysql": "automatic startup and saved-config refresh passed",
+  "source": {
+    "name": "localhost:3306/chinook",
+    "read_at": "2026-10-23T11:56:31.897260+00:00"
+  },
+  "client_tests": "passed, including refresh without credentials, all scopes, stale requests and language",
+  "forecast_http": "27 combinations passed",
+  "native_chrome": [
+    "overview",
+    "catalog exploration",
+    "forecast result",
+    "English language switch"
+  ],
+  "screenshots": [
+    "ui_overview.jpg",
+    "ui_explore.jpg",
+    "ui_forecast.jpg",
+    "ui_forecast_en.jpg"
+  ],
+  "limitations": [
+    "Native month picker follows browser locale",
+    "PNG/file-picker not manually verified",
+    "Qt test shutdown emits one GC ResourceWarning"
+  ],
+  "business_data_writes": false
+}

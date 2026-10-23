@@ -1,0 +1,14 @@
+Observed verification record (not a synthetic test run)
+Date: 2026-10-22
+Interpreter: D:\Project_Processing\.venv\Scripts\python.exe
+Command: .venv\Scripts\python.exe -m unittest discover -s tests -v
+Result from final completed run: Ran 28 tests in 20.799s; OK; exit code 0.
+
+Coverage: readonly connections and sanitized errors; aggregation/reconciliation;
+null/duplicate keys; month boundaries/gaps/filter identity; leakage/time splits;
+test-independent selection; recursive forecasting; hierarchy consistency;
+JSON roundtrip; UI stale-result invalidation; localization; masked password dialog.
+
+Observed shutdown warning: Python 3.14 gc ResourceWarning, 1 uncollectable object.
+Live Windows GUI, MySQL integration and export checks are recorded separately
+in live_gui_checks.json and live_export_checks.json.

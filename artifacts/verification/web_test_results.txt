@@ -1,0 +1,23 @@
+Web verification record, 2026-10-23
+
+Python: .venv\Scripts\python.exe -m unittest discover -s tests -v
+Observed result: Ran 38 tests in 30.760s; OK; exit code 0.
+Includes 28 existing tests and 10 web HTTP/application tests.
+Observed Python 3.14 Qt-suite shutdown warning: gc ResourceWarning, 1 uncollectable object.
+
+Node: node tests/web_frontend.test.mjs
+Passed: translation coverage, unique HTML IDs, JS element targets, local assets,
+responsive breakpoint, locale formatting, finite SVG chart geometry.
+
+Node: node tests/web_client.test.mjs
+Passed against live HTTP/MySQL using a minimal test DOM: bootstrap, overview,
+all three forecast selectors, name/ID search, stale entity/horizon handling,
+language preservation, evaluation, catalog detail and shared filters.
+
+Live HTTP: .venv\Scripts\python.exe -m scripts.web_integration_check
+Passed: real training, 27 scope/method/horizon combinations, hierarchy consistency,
+never-sold track, CSV, model JSON download/upload, stale revisions/request ownership.
+Detailed evidence: web_live_checks.json.
+
+Browser inventory was empty; no claim of browser click, screenshot, PNG download
+or visual layout verification. Existing live_*.png artifacts belong to PySide6.
